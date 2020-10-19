@@ -1,0 +1,33 @@
+.App {
+  text-align: center;
+}
+
+nav{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+  background:rgb(73, 79, 82);
+  color: #fff;
+}
+.nav-links {
+  width:40%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+}
+
+.wrapper {
+	max-width: 1280px;
+	padding: 10px 20px;
+	margin: 0 auto;
+}
+.wrapper .frame {
+	max-width: 706px;
+	margin: 0 auto;
+}
+.wrapper .frame img{
+	width: 100%;
+	text-align: center;
+}
